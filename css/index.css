@@ -1,0 +1,404 @@
+
+/*Стили*/
+body{
+    background-color: rgb(41,41,41); 
+}
+body a{
+    color:rgb(199, 129, 0);
+    text-decoration: none;
+}
+body a:hover{
+    color:rgb(165, 107, 1);
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+.header-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: rgb(41,41,41);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-family:'China';
+    font-size: 90px;
+    font-weight: 800;
+    color: rgb(199, 129, 0);
+}
+.name{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+}
+.main{
+    width: auto;
+}
+.main-name{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family:'China';
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: rgb(199, 129, 0);
+}
+.second-name{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-family:'ChinaKir';
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(199, 129, 0);
+}
+.bucket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.img-bucket{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(199, 129, 0);
+    border-radius: 20%;
+    padding: 5px;
+    transition: all 200ms;
+}
+.img-bucket:active{
+    transform: scale(0.98)
+}
+.img-bucket:hover{
+    background-color: rgb(146, 141, 133);
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    background-color:rgb(92, 92, 92);
+    height: auto;
+    width: 100%;
+    border: 10px rgb(92, 92, 92) solid;
+    margin: 0;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.input{
+    height: 50px;
+    background-color: rgb(141, 141, 141);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Rubic';
+}
+.input:focus{
+    outline: rgb(63, 63, 63) solid;
+    border: none;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.card{
+    border: none;
+    display: flex;
+    margin: 0px 10px 15px 10px;
+    object-fit: cover;
+}
+
+.card img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-main1{
+    background-color: rgb(41,41,41);
+    width: 400px;
+    text-align: center;
+    font-family: "Rubic";
+    font-weight: bold;
+    color:rgb(199, 129, 0);
+    font-size: 30px;
+}
+.card-footer1{
+    background-color: rgb(58, 58, 58);
+    width: 400px;
+    justify-content: center;
+    font-family: "Rubic";
+    font-weight: 500;
+    color: rgb(141, 141, 141);
+    font-size: 20px;
+
+}
+
+.bucket-menu{
+    display: flex;
+    background-color: rgb(58, 58, 58);
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Rubic";
+    padding-bottom: 15px;
+}
+
+.menu-zag{
+    color:rgb(199, 129, 0);
+    font-family: "Rubic";
+    font-size: 20px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    height: 25px;
+    text-align: center;
+}
+.bucket-store{
+    color: rgb(141, 141, 141);
+    text-align: center;
+}
+.bucket-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-top: 1px solid rgb(170, 170, 170);
+    padding-top: 5px;
+}
+
+.bucket-button button{
+    height: 50px;
+    background-color: rgb(141, 141, 141);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Rubic';
+}
+.bucket-button button:hover{
+    background-color: rgb(116, 116, 116);   
+}
+.bucket-button button:active{
+    transform: scale(0.98)
+}
+
+.vk:hover{
+    background-color: rgb(76, 117, 163);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.tg:hover{
+    background-color: rgb(0, 136, 204);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: rgb(41,41,41);
+    justify-content: center;
+}
+.footer{
+    width: 70%;
+    display: flex;
+    height: auto;
+    background-color: rgb(41,41,41);
+    border-bottom: 1px rgb(141, 141, 141) solid;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(179, 179, 179);
+    font-family: "Rubic";
+}
+
+.not-border{
+    border: 0;
+}
+.inc{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+.footer-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(179, 179, 179);
+    font-family: "China";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.soc-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc-icons img{
+    width: 40px;
+}
+
+.text-footer{
+    color:rgb(179, 179, 179);
+    font-family: "Rubic";
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+}
+
+.active{
+    outline: 5px solid rgb(199, 129, 0);
+}
+.bucket-item{
+}
+
+.bucket-item-name{
+    display: flex;
+    color: rgb(179, 179, 179);
+    padding: 0;
+    font-weight: bold;
+    border-right: 1px solid rgb(179, 179, 179);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.bucket-item-count{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 11px;
+    color: rgb(179, 179, 179);
+    padding: 5px;
+    border-right: 1px solid rgb(179, 179, 179);
+}
+
+.bucket-input{
+    height: 35px;
+    width: 30px;
+}
+
+.cost{
+    margin: 0;
+    color: rgb(219, 219, 219);
+}
+.modal-header{
+    background-color: rgb(41,41,41);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 0;
+    justify-content: center;
+}
+
+.modal-body{
+    background-color:rgb(92, 92, 92) ;
+}
+
+.orange{
+    color: rgb(199, 129, 0);
+    font-family: "Rubic";
+}
+.form-check{
+    text-align: center;
+    font-family: "Rubic";
+    color: rgb(179, 179, 179);
+}
+
+.form-check h5{
+    color: rgb(199, 129, 0);
+}
+
+.modal-footer{
+    background-color: rgb(41,41,41);
+    border-top: 0;
+    font-family: "Rubic";
+}
+.modal-footer button{
+    color: rgb(179, 179, 179);
+}
+
+.form-check-input:checked{
+    background-color: rgb(199, 129, 0);
+    border-color: rgb(41,41,41);
+}
+
+.card-number{
+    margin-top: 5px;
+}
+.big_{
+    height: 40px;
+    width: 90%;
+}
+.small_{
+    height: 40px;
+    width: 90%;
+}
+
+.buy{
+    height: 50px;
+    background-color: rgb(109, 109, 109);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Rubic';
+    color: rgb(199, 129, 0);
+}
+.buy:hover{
+    background-color: rgb(116, 116, 116);   
+}
+.buy:active{
+    transform: scale(0.98)
+}
+
+
+
+/*Шрифты*/
+@font-face {
+	font-family:'China'; 
+	src: url(fonts/7fonts.ru_ELECTROH.TTF);
+}
+@font-face {
+	font-family:'ChinaKir'; 
+	src: url(fonts/7fonts.ru_ChinaCyr.ttf);
+}
+@font-face {
+	font-family:'Rubic'; 
+	src: url(fonts/RubikMonoOne-Regular.ttf);
+}
+
+/*Цвета
+rgb(41,41,41) - темный
+rgb(199, 129, 0) - Ближе к желтому
+*/
+
